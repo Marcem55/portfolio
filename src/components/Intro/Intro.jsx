@@ -1,6 +1,6 @@
 import React, { useEffect, useRef } from 'react';
 import './Intro.scss';
-import { KeyboardArrowDown } from '@material-ui/icons';
+import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
 import { init } from 'ityped'
 
 
@@ -13,7 +13,7 @@ export default function Intro() {
             showCursor: true,
             backDelay: 1500,
             backSpeed: 60,
-            strings: ['HTML', 'CSS', 'JavaScript', 'React', 'Redux', 'NodeJS', 'Express', 'PostgreSQL', 'Sequelize']
+            strings: ['JavaScript', 'HTML', 'CSS', 'React', 'Redux', 'NodeJS', 'Express', 'PostgreSQL', 'Sequelize']
         })
     },[]);
 
@@ -31,7 +31,7 @@ export default function Intro() {
                     <h3>Dev Skills: <span ref={textRef}></span></h3>
                 </div>
                 <a href="#portfolio">
-                    <KeyboardArrowDown className='icon' />
+                    <KeyboardArrowDownIcon className='icon' />
                 </a>
             </div>
         </div>
