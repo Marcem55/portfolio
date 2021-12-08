@@ -1,7 +1,8 @@
 import React from 'react';
 import './Navbar.scss';
-import PersonIcon from '@mui/icons-material/Person';
+import LocalPhoneIcon from '@mui/icons-material/LocalPhone';
 import MailIcon from '@mui/icons-material/Mail';
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
 
 export default function Navbar({menuOpen, setMenuOpen}) {
 	return (
@@ -10,7 +11,7 @@ export default function Navbar({menuOpen, setMenuOpen}) {
 				<div className="left">
 					<a href="#intro" className='logo'>Portfolio</a>
 					<div className="itemContainer">
-						<PersonIcon className='icon'/>
+						<LocalPhoneIcon className='icon'/>
 						<span>+54 9 3364198864</span>
 						<MailIcon className='icon'/>
 						<span>MalacalzaMarcelo@gmail.com</span>

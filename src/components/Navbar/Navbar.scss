@@ -74,6 +74,11 @@
         background-color: $mainColor;
         color: white;
 
+        .icon2 {
+            color: white;
+            transition: all 2s ease;
+        }
+
         .hamburguer {
             span {
                 &:first-child {

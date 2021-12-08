@@ -18,8 +18,17 @@
       box-shadow: 0px 5px 15px 0px rgba(128,128,128,0.45);
       border-radius: 10px;
 
+      @include mobile {
+         width: 80%;
+      }
+
       h1 {
          margin: 20px;
+
+         @include mobile {
+            font-size: 23px;
+            margin: 10px;
+         }
       }
 
       img {
@@ -28,11 +37,32 @@
          height: 100px;
          border-radius: 50%;
          margin: 20px;
+
+         @include mobile {
+            margin: 10px;
+         }
       }
 
       p {
          font-size: 18px;
          text-align: justify;
+
+         @include mobile {
+            font-size: 16px;
+         }
+      }
+
+      .iconsContainer {
+         margin-top: 20px;
+
+         .icon {
+            padding: 0 10px;
+            color: black;
+         }
+
+         .linkedin {
+            color: #0A66C2;
+         }
       }
    }
 }

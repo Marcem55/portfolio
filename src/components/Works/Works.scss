@@ -54,7 +54,7 @@
 				justify-content: center;
 
 				@include mobile {
-            width: 80%;
+            width: 90%;
 						height: 180px;
 						margin: 15px 0;
         }
@@ -67,7 +67,7 @@
 					justify-content: center;
 
 					@include mobile {
-						flex: 6;
+						flex: 7;
 						height: 90%;
 					}
 
