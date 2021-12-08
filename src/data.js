@@ -88,7 +88,7 @@ export const projects = [
     id: 1,
     title: 'World Tour',
     img: 'assets/worldTour1.png',
-    description: 'Desarrollado de back a front, una app para ver y buscar información de los países del mundo, filtrarlos, ordenarlos y crear actividades para ellos. Diseño responsive.',
+    description: 'App para ver y buscar información de los países del mundo, filtrarlos, ordenarlos y crear actividades para ellos. Diseño responsive.',
     icon: 'assets/icons8-earth-50.png',
     link: 'https://worldtourapppi.netlify.app/'
   },

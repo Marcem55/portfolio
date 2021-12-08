@@ -11,6 +11,7 @@
 
         @include mobile {
             font-size: 20px;
+            margin-top: 20px;
         }
     }
 
@@ -21,7 +22,7 @@
         display: flex;
 
         @include mobile {
-            margin: 10px 0;
+            margin: 20px 0;
             flex-wrap: wrap;
             justify-content: center;
         }
@@ -53,8 +54,8 @@
             cursor: pointer;
 
             @include mobile {
-                width: 130px;
-                height: 110px;
+                width: 150px;
+                height: 125px;
             }
 
             h3 {
