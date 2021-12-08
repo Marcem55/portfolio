@@ -19,13 +19,14 @@ export default function Intro() {
 
     return (
         <div className='intro' id='intro'>
+            
             <div className="right">
                 <div className="wrapper">
                     <h2>Hola! Mi nombre es</h2>
                     <h1>Marcelo Malacalza</h1>
                     <h3>Soy: <span ref={textRef}></span></h3>
                 </div>
-                <a href="#testimonials">
+                <a href="#about">
                     <KeyboardArrowDownIcon className='icon' />
                 </a>
             </div>

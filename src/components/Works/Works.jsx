@@ -7,8 +7,9 @@ export default function Works() {
 
     const handleClick = (way) => {
         way === 'left' 
-        ? setCurrentSlide(currentSlide > 0 ? currentSlide - 1 : 5)
+        ? setCurrentSlide(currentSlide > 0 ? currentSlide - 1 : projects.length - 1)
         : setCurrentSlide(currentSlide < projects.length -1 ? currentSlide + 1 : 0);
+        // console.log(currentSlide);
     }
 
     return (
@@ -37,7 +38,7 @@ export default function Works() {
                 ))}
             </div>
             <img className='arrow left' src="assets/icons8-chevron-left-50.png" alt="left arrow" onClick={() => handleClick('left')}/>
-            <img className='arrow right' src="assets/icons8-chevron-right-50.png" alt="right arrow" onClick={() => handleClick('right')}/>
+            <img className='arrow right' src="assets/icons8-chevron-right-50.png" alt="right arrow" onClick={() => handleClick()}/>
         </div>
     )
 }

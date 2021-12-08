@@ -2,7 +2,7 @@ import Contact from "./components/Contact/Contact";
 import Intro from "./components/Intro/Intro";
 import Navbar from "./components/Navbar/Navbar";
 import Portfolio from "./components/Portfolio/Portfolio";
-import Testimonials from "./components/Testimonials/Testimonials";
+import About from "./components/About/About";
 import Works from "./components/Works/Works";
 import './App.scss';
 import { useState } from "react";
@@ -17,7 +17,7 @@ function App() {
             <Menu menuOpen={menuOpen} setMenuOpen={setMenuOpen}/>
             <div className="sections">
                 <Intro/>
-                <Testimonials/>
+                <About/>
                 <Portfolio/>
                 <Works/>
                 <Contact/>
