@@ -82,3 +82,54 @@ export const controlVersion = [
     img: 'assets/icons8-npm-240.png'
   }
 ]
+
+export const projects = [
+  {
+    id: 1,
+    title: 'World Tour',
+    img: 'assets/worldTour1.png',
+    description: 'Desarrollado de back a front, una app para ver y buscar información de los países del mundo, filtrarlos, ordenarlos y crear actividades para ellos. Diseño responsive.',
+    icon: 'assets/icons8-earth-50.png',
+    link: 'https://worldtourapppi.netlify.app/'
+  },
+  {
+    id: 2,
+    title: 'To Do App',
+    img: 'assets/toDoApp2.png',
+    description: 'Nos brinda la posiblidad de agregar tareas, cambiarlas de estado y eliminarlas. Diseño responsive.',
+    icon: 'assets/icons8-to-do-50.png',
+    link: 'https://to-do-app-malacalza.herokuapp.com/'
+  },
+  {
+    id: 3,
+    title: 'App Peluquería',
+    img: 'assets/appSalon.png',
+    description: 'Agenda tus turnos y administra a tus clientes con esta app para peluquerías o salones de belleza. Diseño responsive. (Back-end en proceso).',
+    icon: 'assets/icons8-barber-pole-32.png',
+    link: 'https://peluqueria-malacalza.herokuapp.com/'
+  },
+  {
+    id: 4,
+    title: 'Festival de Rock & Reggaeton',
+    img: 'assets/festival.png',
+    description: 'Pagina web para conciertos/eventos. Diseño responsive.' ,
+    icon: 'assets/icons8-rock-music-32.png',
+    link: 'https://festival-malacalza.herokuapp.com/'
+  },
+  {
+    id: 5,
+    title: 'FrontEnd Store',
+    img: 'assets/frontEndStore.png',
+    description: 'Diseño front-end para un e-commerce dedicado a la venta de ropa. Diseño responsive.',
+    icon: 'assets/icons8-grocery-store-32.png',
+    link: 'https://proyectofrontendstoremalacalza.netlify.app/index.html'
+  },
+  {
+    id: 6,
+    title: 'Basic Portfolio',
+    img: 'assets/primerPortfolio.png',
+    description: 'Porfolio básico para cualquier rubro! Diseño responsive.',
+    icon: 'assets/icons8-portfolio-32.png',
+    link: 'https://primerproyectomalacalza.netlify.app/'
+  }
+]

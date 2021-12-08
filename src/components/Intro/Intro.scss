@@ -1,3 +1,5 @@
+@import '../../global.scss';
+
 .intro {
     background-color: white;
     display: flex;
@@ -9,15 +11,16 @@
         .imgContainer {
             width: 700px;
             height: 700px;
-            background-color: white;
+            background-color: $mainColor;
             border-radius: 50%;
             display: flex;
             align-items: flex-start;
             justify-content: center;
-            float: right;
+            float: left;
 
             img {
-                height: 90%;
+                height: 20%;
+                margin-top: 170px;
             }
         }
     }
@@ -68,12 +71,12 @@
         a {
             position: absolute;
             bottom: 10px;
-            left: 40%;
+            left: 90%;
             color: black;
 
             .icon {
                 font-size: 50px;
-                animation: arrowBlink 2s infinite;
+                animation: arrowBlink 1s infinite;
             }
 
             @keyframes arrowBlink {

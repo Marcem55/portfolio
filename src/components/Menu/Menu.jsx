@@ -9,13 +9,13 @@ export default function Menu({ menuOpen, setMenuOpen}) {
                     <a href="#intro">Inicio</a>
                 </li>
                 <li onClick={() => setMenuOpen(false)}>
-                    <a href="#portfolio">Portfolio</a>
+                    <a href="#testimonials">Sobre mí</a>
+                </li>
+                <li onClick={() => setMenuOpen(false)}>
+                    <a href="#portfolio">Tecnologías</a>
                 </li>
                 <li onClick={() => setMenuOpen(false)}>
                     <a href="#works">Proyectos</a>
-                </li>
-                <li onClick={() => setMenuOpen(false)}>
-                    <a href="#testimonials">Testimonios</a>
                 </li>
                 <li onClick={() => setMenuOpen(false)}>
                     <a href="#contact">Contacto</a>

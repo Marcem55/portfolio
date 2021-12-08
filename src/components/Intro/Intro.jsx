@@ -13,26 +13,24 @@ export default function Intro() {
             showCursor: true,
             backDelay: 1500,
             backSpeed: 60,
-            strings: ['Full Stack Developer', 'Front-end Developer', 'Un capo']
+            strings: ['Full Stack Developer']
         })
     },[]);
 
     return (
         <div className='intro' id='intro'>
-            <div className="left">
-                <div className="imgContainer">
-                    <img src="assets/realMe2.png" alt="profile photo" />
-                </div>
-            </div>
             <div className="right">
                 <div className="wrapper">
                     <h2>Hola! Mi nombre es</h2>
                     <h1>Marcelo Malacalza</h1>
-                    <h3>Y soy: <span ref={textRef}></span></h3>
+                    <h3>Soy: <span ref={textRef}></span></h3>
                 </div>
-                <a href="#portfolio">
+                <a href="#testimonials">
                     <KeyboardArrowDownIcon className='icon' />
                 </a>
+            </div>
+            <div className="left">
+                <div className="imgContainer"></div>
             </div>
         </div>
     )
