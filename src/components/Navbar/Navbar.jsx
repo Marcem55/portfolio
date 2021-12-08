@@ -2,7 +2,6 @@ import React from 'react';
 import './Navbar.scss';
 import LocalPhoneIcon from '@mui/icons-material/LocalPhone';
 import MailIcon from '@mui/icons-material/Mail';
-import LinkedInIcon from '@mui/icons-material/LinkedIn';
 
 export default function Navbar({menuOpen, setMenuOpen}) {
 	return (
