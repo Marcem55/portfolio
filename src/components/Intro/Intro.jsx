@@ -13,7 +13,7 @@ export default function Intro() {
             showCursor: true,
             backDelay: 1500,
             backSpeed: 60,
-            strings: ['JavaScript', 'HTML', 'CSS', 'React', 'Redux', 'NodeJS', 'Express', 'PostgreSQL', 'Sequelize']
+            strings: ['Full Stack Developer', 'Front-end Developer', 'Un capo']
         })
     },[]);
 
@@ -26,9 +26,9 @@ export default function Intro() {
             </div>
             <div className="right">
                 <div className="wrapper">
-                    <h2>Hi there, I'm</h2>
+                    <h2>Hola! Mi nombre es</h2>
                     <h1>Marcelo Malacalza</h1>
-                    <h3>Dev Skills: <span ref={textRef}></span></h3>
+                    <h3>Y soy: <span ref={textRef}></span></h3>
                 </div>
                 <a href="#portfolio">
                     <KeyboardArrowDownIcon className='icon' />
