@@ -28,6 +28,10 @@
         align-items: center;
         justify-content: center;
 
+        @include mobile {
+            margin-top: -50px;
+        }
+
         h2 {
             font-size: 30px;
         }
@@ -80,6 +84,7 @@
 
             span {
                 color: green;
+                font-size: 13px;
 
                 &.danger {
                     color: red;
