@@ -9,11 +9,13 @@
     }
 
     .left {
+        display: flex;
         flex: 1;
         overflow: hidden;
+        justify-content: center;
 
         img {
-            height: 90%;
+            height: 70%;
             margin-top: 20px;
             margin-left: 17px;
         }
@@ -78,6 +80,12 @@
 
             span {
                 color: green;
+
+                &.danger {
+                    color: red;
+                    font-size: 12px;
+                    margin-bottom: 10px;
+                }
             }
         }
     }

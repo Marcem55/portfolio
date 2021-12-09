@@ -42,7 +42,6 @@
 
          @include mobile {
             margin: 10px;
-
          }
       }
 
@@ -61,6 +60,8 @@
          .icon {
             padding: 0 10px;
             color: black;
+            width: 40px;
+            height: 40px;
          }
 
          .linkedin {

@@ -14,6 +14,7 @@ export default function Works() {
 
     return (
         <div className='works' id='works'>
+            <h1 className='topTitle'>Proyectos</h1>
             <div className='slider' style={{transform: `translateX(-${currentSlide * 100}vw)`}}>
                 {projects.map(p => (
                     <div key={p.id} className='container'>
