@@ -54,6 +54,11 @@ export const backEnd = [
     id: 2,
     title: 'Express',
     img: 'assets/icons8-express-240.png'
+  },
+  {
+    id: 3,
+    title: 'Laravel',
+    img: 'assets/icons8-laravel-240.png'
   }
 ]
 
@@ -67,6 +72,11 @@ export const dataBase = [
     id: 2,
     title: 'Sequelize',
     img: 'assets/icons8-sequelize-240.png'
+  },
+  {
+    id: 3,
+    title: 'MySQL',
+    img: 'assets/icons8-logo-de-mysql-240.png'
   }
 ]
 
